@@ -1,0 +1,26 @@
+{
+  "palettes": [
+    "swap-pastels",
+    "swap-pastels",
+    "swap-pastels",
+    "swap-pastels"
+  ],
+  "types": [
+    "source-serif",
+    "source-serif",
+    "hanken",
+    "schibsted"
+  ],
+  "dealt": [
+    "source-serif",
+    "hanken",
+    "schibsted"
+  ],
+  "moments": [
+    {
+      "id": "picture-develops",
+      "at": "2026-11-18T15:36:44.357Z",
+      "seed": "3d99645f"
+    }
+  ]
+}

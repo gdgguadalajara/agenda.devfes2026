@@ -1,0 +1,1174 @@
+{
+ "start": "2026-11-18T15:36:00.155Z",
+ "round": 1,
+ "idle": 0,
+ "errors": 1,
+ "status": "done",
+ "history": [
+  {
+   "at": "2026-11-18T15:43:31.791Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 32,
+   "round": 1,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-18T17:10:34.476Z",
+   "mode": "done",
+   "status": "done",
+   "reason": "Que sea solo un onepage. No es encesario reservar lugares. No se necesita navbar por que no deberia haber navegacion. Crea solo una tabla con las informacion en",
+   "round": 1
+  }
+ ],
+ "max": 3,
+ "marker": {
+  "page": "index.html",
+  "dir": "/home/ushieru/Documentos/gdg-guadalajara/agenda-devfest2026",
+  "kind": "service",
+  "start": "2026-11-18T15:36:00.155Z",
+  "by": "start.mjs",
+  "url": null,
+  "category": "conferencia de desarrollo y talleres",
+  "primary": "Reservar lugar"
+ },
+ "manual": true,
+ "roundKey": "937a6d701f2061aa:da39a3ee",
+ "roundFree": false,
+ "idleFree": false,
+ "blockKey": null,
+ "fp": "937a6d701f2061aa",
+ "page": "index.html",
+ "found": {
+  "fails": [
+   {
+    "check": "assets",
+    "where": "(the page)",
+    "msg": "the image banner.png did not load (404)",
+    "fix": "fix the path, or remove the reference",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "assets"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "text-only",
+    "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+    "msg": "the closing section is only text: no picture, icon, mock or effect in it",
+    "fix": "give the section a visual: a photograph that fits, the real icons, or a UI fragment on a ground",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-only"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+    ]
+   },
+   {
+    "check": "cta",
+    "where": "div.relative.overflow-x-auto",
+    "msg": "the hero has no button (the nav's does not count)",
+    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "cta"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto"
+    ]
+   },
+   {
+    "check": "copy-headline",
+    "where": "(the page)",
+    "msg": "the page has no visible h1",
+    "fix": "put the category noun in the h1 (and who it is for, or where), in 2 to 8 words",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "copy-headline"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "div.grid.place-items-center > img \"banner.png\"",
+    "msg": "the picture banner.png is broken (it loaded nothing): its frame shows empty",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "div.grid.place-items-center > img \"banner.png\""
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"dinorah.png\"",
+    "msg": "the picture dinorah.png is broken (it loaded nothing): its frame shows empty",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"dinorah.png\""
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\"",
+    "msg": "the picture google-developers.svg is broken (it loaded nothing): its frame shows empty",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\""
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"jose.png\"",
+    "msg": "the picture jose.png is broken (it loaded nothing): its frame shows empty",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"jose.png\""
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"elisa.png\"",
+    "msg": "the picture elisa.png is broken (it loaded nothing): its frame shows empty",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"elisa.png\""
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"joel.png\"",
+    "msg": "the picture joel.png is broken (it loaded nothing): its frame shows empty",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"joel.png\""
+    ]
+   },
+   {
+    "check": "visual-empty",
+    "where": "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"alfredo.png\"",
+    "msg": "the picture alfredo.png is broken (it loaded nothing): its frame shows empty (and 11 more like it: google-developers.svg, juan.png, dulce.png, yitzak.jpg, ...)",
+    "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "visual-empty"
+    ],
+    "wheres": [
+     "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"alfredo.png\""
+    ]
+   },
+   {
+    "check": "img-alt",
+    "where": "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\"",
+    "msg": "a picture (google-developers.svg) has no alt",
+    "fix": "write alt saying what the photograph shows (alt=\"\" for a decorative one); a drawn picture with role=\"img\" takes an aria-label",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "img-alt"
+    ],
+    "wheres": [
+     "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\""
+    ]
+   },
+   {
+    "check": "lang",
+    "where": "html",
+    "msg": "<html> has no lang: a screen reader guesses the language and hyphenation is off",
+    "fix": "set <html lang> to the language the page is written in, from the brief (\"de\" for a German page)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "lang"
+    ],
+    "wheres": [
+     "html"
+    ]
+   },
+   {
+    "check": "moment-none",
+    "where": "(the page)",
+    "msg": "a service page (--type) deals no moment: every kind carries one, two on a long page (moments.md)",
+    "fix": "deal one (moments.mjs pick --page service --photo) and mount it in its own section",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "moment-none"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "hero-screen",
+    "where": "div.grid.place-items-center",
+    "msg": "the hero ends at 26px on a 900px screen, 874px above the fold: it ends at the fold, 1px either way (SR-1)",
+    "fix": "make the hero exactly one screen (height: 100svh, its content fitted inside), never taller or shorter",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "hero-screen"
+    ],
+    "wheres": [
+     "div.grid.place-items-center"
+    ]
+   },
+   {
+    "check": "hero-screen",
+    "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+    "msg": "874px of the next section shows on the first screen (from 26px on a 900px screen): nothing below the hero shows at load (SR-1)",
+    "fix": "end the hero at the fold so nothing of the next section shows at load (hero height: 100svh)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "hero-screen"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+    "msg": "the section is 768px tall (0.9 screens), 132px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+    "msg": "the content of section 2 runs 227px from the left and 15px from the right (read from its outermost blocks: no .wrap): 227 and 15px are not one margin; the margin is 64-120px at 1440px (one container, equal margins, 2px either way) (SR-6)",
+    "fix": "use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div.grid.place-items-center",
+    "msg": "a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div.grid.place-items-center"
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(1) > td.px-1.text-center \"10:00\"",
+    "msg": "\"10:00\" runs 11-47px, outside the container lines of section 2 at 227-1425px: full width is for background layers and grounds only (SR-6)",
+    "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(1) > td.px-1.text-center \"10:00\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(2) > td.px-1.text-center \"10:30\"",
+    "msg": "\"10:30\" runs 11-47px, outside the container lines of section 2 at 227-1425px: full width is for background layers and grounds only (SR-6)",
+    "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(2) > td.px-1.text-center \"10:30\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(3) > td.px-1.text-center \"11:00\"",
+    "msg": "\"11:00\" runs 11-47px, outside the container lines of section 2 at 227-1425px: full width is for background layers and grounds only (and 15 more like it: \"12:00\", \"13:00\", \"14:00\") (SR-6)",
+    "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(3) > td.px-1.text-center \"11:00\""
+    ]
+   },
+   {
+    "check": "empty-visual",
+    "where": "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"juan.png\"",
+    "msg": "the picture shows nothing here: 72% of it is one colour (#fefefe); its image juan.png did not load",
+    "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "empty-visual"
+    ],
+    "wheres": [
+     "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"juan.png\""
+    ]
+   },
+   {
+    "check": "empty-visual",
+    "where": "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"gabriel.jpeg\"",
+    "msg": "the picture shows nothing here: 76% of it is one colour (#fefefe); its image gabriel.jpeg did not load",
+    "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "empty-visual"
+    ],
+    "wheres": [
+     "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"gabriel.jpeg\""
+    ]
+   },
+   {
+    "check": "empty-visual",
+    "where": "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"david.jpg\"",
+    "msg": "the picture shows nothing here: 71% of it is one colour (#fefefe); its image david.jpg did not load",
+    "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "empty-visual"
+    ],
+    "wheres": [
+     "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"david.jpg\""
+    ]
+   },
+   {
+    "check": "empty-visual",
+    "where": "tr:nth-of-type(9) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"omar.png\"",
+    "msg": "the picture shows nothing here: 73% of it is one colour (#fefefe); its image omar.png did not load",
+    "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "empty-visual"
+    ],
+    "wheres": [
+     "tr:nth-of-type(9) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"omar.png\""
+    ]
+   },
+   {
+    "check": "off-viewport",
+    "where": "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Dulce Mariel Gutiérrez Iniesta\"",
+    "msg": "runs 19px off the right side of the screen",
+    "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-viewport"
+    ],
+    "wheres": [
+     "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Dulce Mariel Gutiérrez Iniesta\""
+    ]
+   },
+   {
+    "check": "off-viewport",
+    "where": "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Maria Dolores Cervantes Araujo\"",
+    "msg": "runs 19px off the right side of the screen",
+    "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-viewport"
+    ],
+    "wheres": [
+     "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Maria Dolores Cervantes Araujo\""
+    ]
+   },
+   {
+    "check": "off-viewport",
+    "where": "(the page)",
+    "msg": "the page is 417px wide on a 390px screen and scrolls sideways",
+    "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-viewport"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "cut-text",
+    "where": "table.min-w-full.divide-y > thead.bg-gray-50.sticky > tr > th.px-3.py-3:nth-of-type(5) \"Auditorio Adalberto Navarro\"",
+    "msg": "cut 14px by the right edge of the screen (and 4 more like it: \"Gémini para redes social\", \"Crea tu MVP con Firebase\", \"Maria Dolores Cervantes \", \"OSINT 101: Cómo Evaluar \")",
+    "fix": "give the text room: no overflow clipping a line, no line past its box",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "cut-text"
+    ],
+    "wheres": [
+     "table.min-w-full.divide-y > thead.bg-gray-50.sticky > tr > th.px-3.py-3:nth-of-type(5) \"Auditorio Adalberto Navarro\""
+    ]
+   },
+   {
+    "check": "no-visual",
+    "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+    "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "no-visual"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+    ]
+   },
+   {
+    "check": "off-viewport",
+    "where": "div.relative.overflow-x-auto > table.min-w-full.divide-y \"Hora Auditorio Salvador Allende Auditori\"",
+    "msg": "at 320px wide it runs 96px past the screen's right edge (the page is 416px wide and scrolls sideways)",
+    "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+    "widths": [
+     320
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-viewport"
+    ],
+    "wheres": [
+     "div.relative.overflow-x-auto > table.min-w-full.divide-y \"Hora Auditorio Salvador Allende Auditori\""
+    ]
+   }
+  ],
+  "warns": [
+   {
+    "check": "heading-scale",
+    "where": "(the page)",
+    "msg": "the page has no visible h1",
+    "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "page-meta",
+    "where": "head \"Agenda DevFestGDL 2025\"",
+    "msg": "no <meta name=\"description\">: a search result and a shared link show a scrap of the page instead",
+    "fix": "write a <title> \"Name: what it is for whom or where\" and a one-sentence description in other words (starter.html)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "share-meta",
+    "where": "head",
+    "msg": "the head lacks og:title, og:description, og:image, twitter:card, theme-color: a shared link shows no picture or title of its own",
+    "fix": "copy the head block of starter.html: og tags, twitter:card, the icon and theme-color (references/system.md, Head)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-height",
+    "where": "div.grid.place-items-center",
+    "msg": "the section starts at 8px, 8px below the screen grid (0 x 900px): sections start on whole screens (SR-2)",
+    "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "one-section",
+    "where": "div.grid.place-items-center",
+    "msg": "the screen at scroll 0px (stride 0) shows 18px of section 1 beside section 2: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "fold-cut",
+    "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(6) > td.px-1.text-center \"14:00\"",
+    "msg": "a line of the hero text is sliced by the bottom of the first screen",
+    "fix": "size the hero so the heading ends above the fold, or starts below it",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "fold-cut",
+    "where": "td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > div.flex.flex-col > p.font-bold \"Gerardo Martinez\"",
+    "msg": "a line of the hero text is sliced by the bottom of the first screen",
+    "fix": "size the hero so the heading ends above the fold, or starts below it",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   }
+  ],
+  "crashed": [
+   "the copy (the page showed no <main>, <section> or <h1> to lint)",
+   "check.mjs could not run (exit 2: no Chrome found (set CHROME_PATH))"
+  ],
+  "seconds": {
+   "consistency": 50,
+   "layout": 0
+  }
+ },
+ "open": [
+  {
+   "check": "assets",
+   "where": "(the page)",
+   "msg": "the image banner.png did not load (404)",
+   "fix": "fix the path, or remove the reference",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "assets"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "text-only",
+   "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+   "msg": "the closing section is only text: no picture, icon, mock or effect in it",
+   "fix": "give the section a visual: a photograph that fits, the real icons, or a UI fragment on a ground",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-only"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+   ]
+  },
+  {
+   "check": "cta",
+   "where": "div.relative.overflow-x-auto",
+   "msg": "the hero has no button (the nav's does not count)",
+   "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "cta"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto"
+   ]
+  },
+  {
+   "check": "copy-headline",
+   "where": "(the page)",
+   "msg": "the page has no visible h1",
+   "fix": "put the category noun in the h1 (and who it is for, or where), in 2 to 8 words",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "copy-headline"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "div.grid.place-items-center > img \"banner.png\"",
+   "msg": "the picture banner.png is broken (it loaded nothing): its frame shows empty",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "div.grid.place-items-center > img \"banner.png\""
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"dinorah.png\"",
+   "msg": "the picture dinorah.png is broken (it loaded nothing): its frame shows empty",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"dinorah.png\""
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\"",
+   "msg": "the picture google-developers.svg is broken (it loaded nothing): its frame shows empty",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\""
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"jose.png\"",
+   "msg": "the picture jose.png is broken (it loaded nothing): its frame shows empty",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "tr:nth-of-type(3) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"jose.png\""
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"elisa.png\"",
+   "msg": "the picture elisa.png is broken (it loaded nothing): its frame shows empty",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"elisa.png\""
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"joel.png\"",
+   "msg": "the picture joel.png is broken (it loaded nothing): its frame shows empty",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "tr:nth-of-type(4) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"joel.png\""
+   ]
+  },
+  {
+   "check": "visual-empty",
+   "where": "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"alfredo.png\"",
+   "msg": "the picture alfredo.png is broken (it loaded nothing): its frame shows empty (and 11 more like it: google-developers.svg, juan.png, dulce.png, yitzak.jpg, ...)",
+   "fix": "make the visual draw at this width: a picture that loads, an effect that renders, or its still fallback; never an empty ground or frame",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "visual-empty"
+   ],
+   "wheres": [
+    "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"alfredo.png\""
+   ]
+  },
+  {
+   "check": "img-alt",
+   "where": "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\"",
+   "msg": "a picture (google-developers.svg) has no alt",
+   "fix": "write alt saying what the photograph shows (alt=\"\" for a decorative one); a drawn picture with role=\"img\" takes an aria-label",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "img-alt"
+   ],
+   "wheres": [
+    "div.flex.flex-col > p.font-bold.flex > span.text-gray-700.text-sm > img.h-3 \"google-developers.svg\""
+   ]
+  },
+  {
+   "check": "lang",
+   "where": "html",
+   "msg": "<html> has no lang: a screen reader guesses the language and hyphenation is off",
+   "fix": "set <html lang> to the language the page is written in, from the brief (\"de\" for a German page)",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "lang"
+   ],
+   "wheres": [
+    "html"
+   ]
+  },
+  {
+   "check": "moment-none",
+   "where": "(the page)",
+   "msg": "a service page (--type) deals no moment: every kind carries one, two on a long page (moments.md)",
+   "fix": "deal one (moments.mjs pick --page service --photo) and mount it in its own section",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "moment-none"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "hero-screen",
+   "where": "div.grid.place-items-center",
+   "msg": "the hero ends at 26px on a 900px screen, 874px above the fold: it ends at the fold, 1px either way (SR-1)",
+   "fix": "make the hero exactly one screen (height: 100svh, its content fitted inside), never taller or shorter",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "hero-screen"
+   ],
+   "wheres": [
+    "div.grid.place-items-center"
+   ]
+  },
+  {
+   "check": "hero-screen",
+   "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+   "msg": "874px of the next section shows on the first screen (from 26px on a 900px screen): nothing below the hero shows at load (SR-1)",
+   "fix": "end the hero at the fold so nothing of the next section shows at load (hero height: 100svh)",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "hero-screen"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+   "msg": "the section is 768px tall (0.9 screens), 132px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+   "msg": "the content of section 2 runs 227px from the left and 15px from the right (read from its outermost blocks: no .wrap): 227 and 15px are not one margin; the margin is 64-120px at 1440px (one container, equal margins, 2px either way) (SR-6)",
+   "fix": "use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div.grid.place-items-center",
+   "msg": "a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div.grid.place-items-center"
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(1) > td.px-1.text-center \"10:00\"",
+   "msg": "\"10:00\" runs 11-47px, outside the container lines of section 2 at 227-1425px: full width is for background layers and grounds only (SR-6)",
+   "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(1) > td.px-1.text-center \"10:00\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(2) > td.px-1.text-center \"10:30\"",
+   "msg": "\"10:30\" runs 11-47px, outside the container lines of section 2 at 227-1425px: full width is for background layers and grounds only (SR-6)",
+   "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(2) > td.px-1.text-center \"10:30\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(3) > td.px-1.text-center \"11:00\"",
+   "msg": "\"11:00\" runs 11-47px, outside the container lines of section 2 at 227-1425px: full width is for background layers and grounds only (and 15 more like it: \"12:00\", \"13:00\", \"14:00\") (SR-6)",
+   "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "table.min-w-full.divide-y > tbody.bg-white.divide-y > tr:nth-of-type(3) > td.px-1.text-center \"11:00\""
+   ]
+  },
+  {
+   "check": "empty-visual",
+   "where": "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"juan.png\"",
+   "msg": "the picture shows nothing here: 72% of it is one colour (#fefefe); its image juan.png did not load",
+   "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "empty-visual"
+   ],
+   "wheres": [
+    "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"juan.png\""
+   ]
+  },
+  {
+   "check": "empty-visual",
+   "where": "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"gabriel.jpeg\"",
+   "msg": "the picture shows nothing here: 76% of it is one colour (#fefefe); its image gabriel.jpeg did not load",
+   "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "empty-visual"
+   ],
+   "wheres": [
+    "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"gabriel.jpeg\""
+   ]
+  },
+  {
+   "check": "empty-visual",
+   "where": "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"david.jpg\"",
+   "msg": "the picture shows nothing here: 71% of it is one colour (#fefefe); its image david.jpg did not load",
+   "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "empty-visual"
+   ],
+   "wheres": [
+    "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(4) > div.flex.gap-2 > img.h-15.w-15 \"david.jpg\""
+   ]
+  },
+  {
+   "check": "empty-visual",
+   "where": "tr:nth-of-type(9) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"omar.png\"",
+   "msg": "the picture shows nothing here: 73% of it is one colour (#fefefe); its image omar.png did not load",
+   "fix": "make the visual draw at every width: a picture that loads, an effect that renders, or its still fallback; never an empty frame",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "empty-visual"
+   ],
+   "wheres": [
+    "tr:nth-of-type(9) > td.px-3.py-3:nth-of-type(3) > div.flex.gap-2 > img.h-15.w-15 \"omar.png\""
+   ]
+  },
+  {
+   "check": "off-viewport",
+   "where": "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Dulce Mariel Gutiérrez Iniesta\"",
+   "msg": "runs 19px off the right side of the screen",
+   "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-viewport"
+   ],
+   "wheres": [
+    "tr:nth-of-type(5) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Dulce Mariel Gutiérrez Iniesta\""
+   ]
+  },
+  {
+   "check": "off-viewport",
+   "where": "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Maria Dolores Cervantes Araujo\"",
+   "msg": "runs 19px off the right side of the screen",
+   "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-viewport"
+   ],
+   "wheres": [
+    "tr:nth-of-type(8) > td.px-3.py-3:nth-of-type(5) > div.flex.gap-2 > img.h-15.w-15 \"img: Maria Dolores Cervantes Araujo\""
+   ]
+  },
+  {
+   "check": "off-viewport",
+   "where": "(the page)",
+   "msg": "the page is 417px wide on a 390px screen and scrolls sideways",
+   "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-viewport"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "cut-text",
+   "where": "table.min-w-full.divide-y > thead.bg-gray-50.sticky > tr > th.px-3.py-3:nth-of-type(5) \"Auditorio Adalberto Navarro\"",
+   "msg": "cut 14px by the right edge of the screen (and 4 more like it: \"Gémini para redes social\", \"Crea tu MVP con Firebase\", \"Maria Dolores Cervantes \", \"OSINT 101: Cómo Evaluar \")",
+   "fix": "give the text room: no overflow clipping a line, no line past its box",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "cut-text"
+   ],
+   "wheres": [
+    "table.min-w-full.divide-y > thead.bg-gray-50.sticky > tr > th.px-3.py-3:nth-of-type(5) \"Auditorio Adalberto Navarro\""
+   ]
+  },
+  {
+   "check": "no-visual",
+   "where": "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\"",
+   "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+   "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "no-visual"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto \"Hora Auditorio Salvador Allende Auditori\""
+   ]
+  },
+  {
+   "check": "off-viewport",
+   "where": "div.relative.overflow-x-auto > table.min-w-full.divide-y \"Hora Auditorio Salvador Allende Auditori\"",
+   "msg": "at 320px wide it runs 96px past the screen's right edge (the page is 416px wide and scrolls sideways)",
+   "fix": "keep it inside the screen at this width: let it shrink, wrap or stack",
+   "widths": [
+    320
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-viewport"
+   ],
+   "wheres": [
+    "div.relative.overflow-x-auto > table.min-w-full.divide-y \"Hora Auditorio Salvador Allende Auditori\""
+   ]
+  }
+ ],
+ "waived": [],
+ "warnCount": 7,
+ "at": "2026-11-18T17:10:34.477Z",
+ "doneReason": "Que sea solo un onepage. No es encesario reservar lugares. No se necesita navbar por que no deberia haber navegacion. Crea solo una tabla con las informacion encesaria para saber donde, cuando y quien es el taller/charla, usa el principio KISS(Keep it simple stupid). Vuelve a rediseñar el sitio y manten un google look&feel"
+}

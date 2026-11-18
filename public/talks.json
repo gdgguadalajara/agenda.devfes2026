@@ -1,0 +1,47 @@
+[
+    {
+        "speaker": "Pedro Lara",
+        "GDE": true,
+        "web": "https://www.linkedin.com/in/pedrohmlara/",
+        "type": "Workshop",
+        "title": "Fine-Tuning Gemma for Fact Retrieval: A MeMo-Based Approach to Next-Gen RAG Systems",
+        "description": "This presentation explores a practical, end-to-end implementation of the Memory Model (MeMo) architecture, offering a compelling approach for developers building advanced agentic pipelines or enhancing Large Language Model (LLM) memory beyond traditional Retrieval-Augmented Generation (RAG). Attendees will be guided through a comprehensive Colab notebook demonstrating a dual-model framework that separates reasoning from factual recall. The session covers the complete technical pipeline—from automated fact extraction, semantic consolidation, and cross-document synthesis for multi-hop reasoning—to the final execution of a multi-turn inference loop orchestrating Gemini as the Executive model for question decomposition and synthesis, alongside a LoRA-fine-tuned Gemma via KerasHub acting as the parameterized Memory Model.",
+        "auditorio": "Auditorio Salvador Allende"
+    },
+    {
+        "speaker": "Aaron Guerrero Hernandez",
+        "GDE": true,
+        "web": "https://www.linkedin.com/in/aaronthewarrior/",
+        "type": "Workshop",
+        "title": "Vibe Code with Gemini in Google AI Studio",
+        "description": "¡Vamos a aprender programando un juego! Crearemos juntos \"Snake & Beats\", un juego retro con estética neón y reproductor de música integrado. Utilizaremos Gemini en Google AI Studio para generar una aplicación de React completa en un solo archivo y te enseñaré cómo realizar el despliegue directo en Cloud Run para que tu proyecto esté disponible en la web.",
+        "auditorio": "Auditorio Adalberto Navarro"
+    },
+    {
+        "speaker": "Dinorah Tovar Duarte",
+        "GDE": true,
+        "web": "https://www.linkedin.com/in/dinorah-tovar/",
+        "type": "Talk",
+        "title": "On Private: Orchestrating Gemma 4 and AppFunctions on Android",
+        "description": "Here is Dinorah, your trustable Android Developer that also loves security As Android evolves into an AI-first OS, the role of a health app is shifting from a passive data silo to an active, intelligent agent. But how do we build these \"agentic\" experiences without compromising the most sensitive data a user owns? This session explores the technical intersection of the new AppFunctions API and Gemma 4 (E2B/E4B) models. We will dive into architecting a system where on-device LLMs reason over Health Connect data locally via AICore, ensuring zero-cloud roundtrips. Keep you health private and secure",
+        "auditorio": "Auditorio Salvador Allende"
+    },
+    {
+        "speaker": "Daniel Enriquez",
+        "GDE": false,
+        "web": "https://www.caress.dev/",
+        "type": "Talk",
+        "title": "Diferencia entre vibecoding e ingenieria asistida por IA",
+        "description": "",
+        "auditorio": "Auditorio Salvador Allende"
+    },
+    {
+        "speaker": "Elisa Elias",
+        "GDE": false,
+        "web": "https://elisaelias.com/",
+        "type": "Workshop",
+        "title": "Offensive cloud architecture: Building adversarial infraestructure on GCP",
+        "description": "",
+        "auditorio": "Auditorio Salvador Allende"
+    }
+]
